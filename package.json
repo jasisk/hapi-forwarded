@@ -1,0 +1,20 @@
+{
+  "name": "hapi-forwarded",
+  "version": "1.0.0",
+  "description": "a hapi v7.5.3 plugin to trust x-forwarded-for",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab"
+  },
+  "author": "Jean-Charles Sisk <jasisk@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "code": "^1.2.1",
+    "hapi": "^7.5.3",
+    "lab": "^5.2.0",
+    "wreck": "^5.1.0"
+  },
+  "dependencies": {
+    "forwarded": "^0.1.0"
+  }
+}
